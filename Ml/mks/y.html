@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+#b1{background-color:red;}
+
+#b1{color:white;}
+
+</style>
+<script>
+var flag=true;
+function f()
+{
+if(flag){
+document.getElementById("m1").innerHTML="fuck you college";
+flag=false;
+}
+else
+{
+document.getElementById("m1").innerHTML=" ";
+flag=true;
+}
+
+}
+</script>
+</head>
+<body>
+<h1 id="m1">fuck you college</h1>
+<button id="b1" onclick="f()">Toggle</button>
+</body>
+</html>
